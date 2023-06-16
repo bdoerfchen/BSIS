@@ -226,7 +226,7 @@
     <a name="appearance" val="logisim_evolution"/>
     <a name="circuit" val="main"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
-    <a name="simulationFrequency" val="1.0"/>
+    <a name="simulationFrequency" val="64.0"/>
     <comp lib="0" loc="(1190,340)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
@@ -262,6 +262,7 @@
     </comp>
     <comp lib="4" loc="(540,50)" name="RAM">
       <a name="appearance" val="logisim_evolution"/>
+      <a name="asyncread" val="true"/>
       <a name="trigger" val="falling"/>
       <a name="type" val="nonvolatile"/>
     </comp>
@@ -473,7 +474,7 @@
 fc10 18a 208c3 20804 298a 3010 89 2418a
 24810 208c1 20940 20820 20a40 208a3 20884 209a0
 208c0 20bc0 20b40 20ac0 a98a b010 b98a 10089
-c98a d010 c0800 2e19a 2e810 af010 208c1 2f800
+c98a d010 c0800 2e18a 2e810 af010 208c1 f800
 </a>
       <a name="dataWidth" val="20"/>
       <a name="label" val="MCS"/>
